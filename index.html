@@ -1,0 +1,26 @@
+<html><head></head>
+<body>
+
+	<div class="tit">title</div>
+	<div class="itemInfo">some information</div>
+	<div class="category">category</div>
+
+
+	<script src="./fontScale.js"></script>
+	<script>
+		// re-scale font-size
+		var _data = [["tit" , 15], ["itemInfo" , 12], ["category" , 11], ["checkTextModulerInner" , 15]];
+		fontSizeModule.setData(_data);
+		
+		window.addEventListener("load", iterationCommon, false);
+		window.addEventListener("resize", iterationCommon, false);
+		
+		function iterationCommon() {
+			for(var i = 0; i < 4; i++) {
+				fontSizeModule.init(i);
+			}
+		}
+	</script>
+
+</body>
+</html>
