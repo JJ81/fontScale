@@ -1,4 +1,6 @@
 /*
+ * https://page.kakao.com/store/kakaopage
+ * Copyright 2014 'J' in Podotree, Inc.
  * Scripted by J
  * Scale element's font-size when resize event
  * Released under the MIT license
