@@ -1,6 +1,7 @@
 /*
  * Scripted by J
  * Scale element's font-size when resize event
+ * Released under the MIT license
  * version : 2.0
  */
 (function (window, undefined) {
